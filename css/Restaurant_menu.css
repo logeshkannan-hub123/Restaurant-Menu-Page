@@ -204,7 +204,8 @@ a {
     }
 
     .nav-links li a {
-        padding: 15px;
+        padding: 10px;
+        background-color: #333;
     }
 
     /* This is the key: when the checkbox is checked, display the nav links */
@@ -225,4 +226,17 @@ a {
         transform: translateY(0) rotate(-45deg);
     }
 
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 20px auto;
+    width: 90%;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    color: rgb(85, 44, 44);
 }
